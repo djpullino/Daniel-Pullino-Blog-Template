@@ -1,0 +1,245 @@
+2021-07-07 14:39:59 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user ''@'172.28.0.2' (using password: NO) in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'\'@\'172.28.0.2\' (using password: NO)',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'172.28.0.2' (using password: NO) in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 104
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver.php:104
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+
+
+2021-07-07 14:40:59 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user ''@'172.28.0.2' (using password: NO) in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'\'@\'172.28.0.2\' (using password: NO)',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'172.28.0.2' (using password: NO) in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 104
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver.php:104
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+
+
+2021-07-07 14:46:58 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user ''@'172.28.0.2' (using password: NO) in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'\'@\'172.28.0.2\' (using password: NO)',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'172.28.0.2' (using password: NO) in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 104
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver.php:104
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+
+
+2021-07-07 15:08:37 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user ''@'192.168.0.2' (using password: NO) in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'\'@\'192.168.0.2\' (using password: NO)',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user ''@'192.168.0.2' (using password: NO) in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 104
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver.php:104
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+
+
+2021-07-07 18:36:02 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 107
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known',
+)
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 104
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver.php:104
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+Caused by: [PDOException] PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/vendor/cakephp/cakephp/src/Database/Driver.php on line 104
+Stack Trace:
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver.php:104
+- /var/www/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:114
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php:47
+- /var/www/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php:65
+- /var/www/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:53
+- /var/www/vendor/cakephp/cakephp/src/Database/Connection.php:400
+- /var/www/vendor/cakephp/bake/src/Utility/TableScanner.php:65
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:1063
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:192
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:123
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:99
+- /var/www/vendor/cakephp/bake/src/Command/ModelCommand.php:82
+- /var/www/vendor/cakephp/bake/src/Command/AllCommand.php:94
+- /var/www/vendor/cakephp/cakephp/src/Console/BaseCommand.php:175
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/bin/cake.php:12
+
+
+
